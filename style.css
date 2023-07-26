@@ -4,10 +4,14 @@
 
 body {
     margin: 0;
-    background-color: #0B2434;
-    padding: 20px;
+    padding: 0;
+    height: 100dvh;
+    background: #0B2434;
     font-family: 'Karla', sans-serif;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -55,7 +59,8 @@ main {
 
 .die-num {
     font-size: 1.5rem;
-    color: #2B283A;;
+    color: #2B283A;
+    ;
 }
 
 .roll-dice {
